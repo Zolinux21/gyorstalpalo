@@ -47,7 +47,7 @@ class AitoolsController extends Controller
         );
 
         Aitool::create($request->all());
-// git teszt
+// git bash teszt hahahaha
         return redirect()->route('aitools.index')->with('success', 'Ai tool sikeresen létrehozva.');
 
     }
